@@ -1,0 +1,16 @@
+Index: jabwatch/Makefile.am
+===================================================================
+RCS file: /cvsroot/openaether/utils/jabwatch/Makefile.am,v
+retrieving revision 1.1
+diff -u -u -r1.1 Makefile.am
+--- jabwatch/Makefile.am	27 Dec 2003 19:54:26 -0000	1.1
++++ jabwatch/Makefile.am	2 Sep 2004 15:22:50 -0000
+@@ -10,7 +10,7 @@
+ include $(top_srcdir)/config/config.mk
+ bin_PROGRAMS = jabwatch
+ 
+-INCLUDES = -I$(top_srcdir) -I$(XERCES_IDIR) @oacore_includes@ @oapr_includes@ @oapu_includes@
++INCLUDES = -I$(top_srcdir) -I$(XERCES_IDIR) @oacore_includes@ @oapr_includes@ @oapu_includes@ @apu_includes@
+ OAPRLIB=@oapr_ldlink@ @oapr_libs@  @oapu_ldlink@ @oapu_libs@ @oacore_ldlink@ @oacore_libs@
+ 
+ noinst_HEADERS = jabwatch_app.hpp
