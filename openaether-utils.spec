@@ -8,7 +8,7 @@ Release:	0.1
 #TODO: check this
 License:	GPL
 Group:		Libraries
-Source0:	http://www.lukasz.mach.com.pl/oa-utils-%{version}.tar.bz2
+Source0:	oa-utils-%{version}.tar.bz2
 # Source0-md5:	46098c43a8acf71c0368a45b09ba2e20
 Patch0:		%{name}-oapr_includes.patch
 URL:		http://gen.openaether.org/
