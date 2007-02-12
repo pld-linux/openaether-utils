@@ -1,7 +1,7 @@
 %define _snap 20040713
 
 Summary:	Misc jabber utilities
-Summary(pl):	Ró¿ne narzêdzie jabberowe
+Summary(pl.UTF-8):   RÃ³Å¼ne narzÄ™dzie jabberowe
 Name:		openaether-utils
 Version:	%{_snap}
 Release:	0.1
@@ -27,8 +27,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Collection of misc programs using oajabber library.
 
-%description -l pl
-Kolekcja ró¿nych programów u¿ywaj±cych biblioteki oajabber.
+%description -l pl.UTF-8
+Kolekcja rÃ³Å¼nych programÃ³w uÅ¼ywajÄ…cych biblioteki oajabber.
 
 %prep
 %setup -q -n oa-utils-%{_snap}
