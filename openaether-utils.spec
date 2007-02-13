@@ -1,7 +1,7 @@
 %define _snap 20040713
 
 Summary:	Misc jabber utilities
-Summary(pl.UTF-8):   Różne narzędzie jabberowe
+Summary(pl.UTF-8):	Różne narzędzie jabberowe
 Name:		openaether-utils
 Version:	%{_snap}
 Release:	0.1
