@@ -15,7 +15,7 @@ URL:		http://gen.openaether.org/
 BuildRequires:	apr-util-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	boost-conversion-devel
+BuildRequires:	boost-devel >= 1.35.0
 BuildRequires:	boost-python-devel
 BuildRequires:	libtool
 BuildRequires:	oajabber-devel
